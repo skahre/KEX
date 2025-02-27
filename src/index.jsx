@@ -1,5 +1,6 @@
 import {createRoot} from "react-dom/client";
-import { SomeView } from "./views/someView";
+import { StartView } from "./views/startView";
+import { WordView } from "./views/wordView";
 
 createRoot(document.getElementById('root'))
-    .render(<SomeView/>);  
+    .render(<WordView/>);  
