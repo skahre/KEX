@@ -5,7 +5,7 @@ export function WordView(props){
         <div>
             <h1>Test A1</h1>
             <h3>Ordet du ska hitta:</h3>
-            <p>ORD</p>
+            <p>BRIDGE</p>
         </div>
     )
 }
