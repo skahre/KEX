@@ -5,7 +5,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import { StartView } from "../views/startView";
 import {Test} from "./testPresenter"
 
-export function makeRouter(){
+export function makeRouter(model){
     return createHashRouter([
         {
             path: "/",
@@ -13,7 +13,7 @@ export function makeRouter(){
         },
         {
             path: "/test",
-            element: <Test/>
+            element: <Test model={model}/>
         }
     ], 
     {
@@ -37,7 +37,7 @@ const ReactRoot = observer(
                         future={{
                             v7_startTransition: true,
                         }}
-                        router={ makeRouter() }/>
+                        router={ makeRouter(props.model) }/>
                 </main>
             </div>
         );

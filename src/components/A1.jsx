@@ -1,8 +1,8 @@
 import "/src/style.css"
 
-export function A1View(props){
+export function A1(props){
     function wordFoundACB(){
-        console.log("yippie")
+        props.onWordFound()
     }
 
     return (

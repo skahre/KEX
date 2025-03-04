@@ -1,7 +1,9 @@
 import {createRoot} from "react-dom/client";
-import { StartView } from "../views/startView";
-import { WordView } from "../views/wordView";
+import { observable } from "mobx";
 import { ReactRoot } from "./ReactRoot";
+import { model } from "../testModel";
+
+const reactiveModel = observable(model)
 
 createRoot(document.getElementById('root'))
-    .render(<ReactRoot/>);  
+    .render(<ReactRoot model={reactiveModel}/>);  
