@@ -2,6 +2,8 @@ import "/src/style.css"
 import { A1 } from "../components/A1"
 
 export function TestTextView(props){
+    const TestComponent = props.currentTest.component
+
     function wordFoundACB(){
         console.log("yippie")
         props.onWordFound()
@@ -9,7 +11,7 @@ export function TestTextView(props){
 
     return (
         <div>
-            <A1 onWordFound={wordFoundACB}/>
+            {TestComponent && <TestComponent onWordFound={wordFoundACB}/>}
         </div>
     )
 }

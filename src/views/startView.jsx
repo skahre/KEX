@@ -2,6 +2,7 @@ import "/src/style.css"
 
 export function StartView(props){
     function startACB(){
+        props.model.getCurrentTest()
         window.location.hash = "/test"
     }
     return (

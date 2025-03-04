@@ -9,7 +9,7 @@ export function makeRouter(model){
     return createHashRouter([
         {
             path: "/",
-            element: <StartView/>
+            element: <StartView model={model}/>
         },
         {
             path: "/test",
