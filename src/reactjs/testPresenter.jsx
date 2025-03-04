@@ -14,18 +14,15 @@ const Test = observer(
             props.model.getCurrentTest();
         }
 
-        return props.model.timer? 
-            <div>
+        return <div>
                 <WordView
                 currentTest={props.model.currentTest}/>
+
+                {props.model.startTime? 
                 <TestTextView
                 currentTest={props.model.currentTest}
                 onWordFound={wordFoundACB}/>
-            </div>
-            : <div>
-                <WordView
-                currentTest={props.model.currentTest}/>
-                <button onClick={userReadyACB}>Ready!</button>
+                : <button onClick={userReadyACB}>Ready!</button>}
             </div>
     }
 );

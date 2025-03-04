@@ -1,5 +1,7 @@
 import { A1 } from "./components/A1"
 import { A2 } from "./components/A2"
+import { B1 } from "./components/B1"
+import { B2 } from "./components/B2"
 
 export const model = {
 
@@ -11,22 +13,26 @@ export const model = {
 
     userStats: {},
 
-    timer: null,
+    startTime: 0,
 
     testsDone: 0,
 
     allTest: [
         {name: "A1", word: "BRIDGE", component:A1},
-        {name: "A2", word: "CANDLE", component:A2}
+        {name: "A2", word: "CANDLE", component:A2},
+        {name: "B1", word: "GLASS", component:B1},
+        {name: "B2", word: "STONE", component:B2},
     ],
 
     startTimer(){ 
-        this.timer = 1  // Fett temporary funktion lol
+        this.startTime = Date.now();
     },
 
     stopTimer(){
-        this.userStats[this.currentTest.name] = this.timer;
-        this.timer = null;   // Yippie (det lär nog inte va så här lätt lolll)
+        const endTime = Date.now()
+        this.userStats[this.currentTest.name] = (endTime - this.startTime) / 1000;
+        this.startTime = 0;
+        console.log(this.userStats[this.currentTest.name])
     }, 
 
     getCurrentTest(){
