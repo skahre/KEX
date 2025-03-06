@@ -15,9 +15,11 @@ export const model = {
 
     startTime: 0,
 
+    endTime: 0,
+
     testsDone: 0,
 
-    allTest: [
+    allTests: [
         {name: "A1", word: "BRIDGE", component:A1},
         {name: "A2", word: "CANDLE", component:A2},
         {name: "B1", word: "GLASS", component:B1},
@@ -29,14 +31,15 @@ export const model = {
     },
 
     stopTimer(){
-        const endTime = Date.now()
-        this.userStats[this.currentTest.name] = (endTime - this.startTime) / 1000;
-        this.startTime = 0;
+        this.endTime = Date.now()
+        this.userStats[this.currentTest.name] = (this.endTime - this.startTime) / 1000;
         console.log(this.userStats[this.currentTest.name])
     }, 
 
     getCurrentTest(){
-        this.currentTest = this.allTest[this.testsDone];
+        this.startTime = 0;
+        this.endTime = 0;
+        this.currentTest = this.allTests[this.testsDone];
     },
 
     finishTest(){

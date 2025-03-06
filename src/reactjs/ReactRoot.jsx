@@ -4,6 +4,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import { StartView } from "../views/startView";
 import {Test} from "./testPresenter"
+import { MidWay } from "./midWayPresenter";
 
 export function makeRouter(model){
     return createHashRouter([
@@ -14,6 +15,10 @@ export function makeRouter(model){
         {
             path: "/test",
             element: <Test model={model}/>
+        },
+        {
+            path: "/midway",
+            element: <MidWay model={model}/>
         }
     ], 
     {
