@@ -11,7 +11,7 @@ export const model = {
         component: null
     },
 
-    userStats: {},
+    userStats: [],
 
     startTime: 0,
 
@@ -32,8 +32,9 @@ export const model = {
 
     stopTimer(){
         this.endTime = Date.now()
-        this.userStats[this.currentTest.name] = (this.endTime - this.startTime) / 1000;
-        console.log(this.userStats[this.currentTest.name])
+        const stats = {name: this.currentTest.name, time: (this.endTime - this.startTime) / 1000}
+        this.userStats.push(stats)
+        console.log(stats)
     }, 
 
     getCurrentTest(){

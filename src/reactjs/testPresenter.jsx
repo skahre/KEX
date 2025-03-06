@@ -15,8 +15,10 @@ const Test = observer(
         }
 
         function nextTestACB(){
-            if (props.model.testsDone == props.model.allTests.length / 2){
-                window.location.hash = "/midway"
+            const testsDone = props.model.testsDone;
+            const testAmount = props.model.allTests.length;
+            if (testsDone == testAmount / 2 || testsDone == testAmount){
+                window.location.hash = "/checkpoint";
             }
             else {
                 props.model.getCurrentTest();
