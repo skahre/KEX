@@ -45,5 +45,13 @@ export const model = {
 
     finishTest(){
         this.testsDone += 1;
+    },
+
+    restart(){
+        this.currentTest = {};
+        this.userStats = [];
+        this.startTime = 0;
+        this.endTime = 0;
+        this.testsDone = 0;
     }
 }

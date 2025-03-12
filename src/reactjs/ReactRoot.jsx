@@ -5,7 +5,7 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import { StartView } from "../views/startView";
 import {Test} from "./testPresenter"
 import { Checkpoint } from "./checkpointPresenter";
-import { ResultsView } from "../views/resultsView";
+import { Results } from "./resultsPresenter";
 
 export function makeRouter(model){
     return createHashRouter([
@@ -23,7 +23,7 @@ export function makeRouter(model){
         },
         {
             path: "/results",
-            element: <ResultsView stats={model.userStats}/>
+            element: <Results model={model}/>
         }
     ], 
     {
