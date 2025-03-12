@@ -2,6 +2,7 @@ import { observer } from "mobx-react-lite";
 import { WordView } from "../views/wordView";
 import { TestTextView } from "../views/testTextView";
 import { WordFoundView } from "../views/wordFoundView";
+import "/src/style.css";
 
 const Test = observer(
     function TestRender(props){
@@ -25,7 +26,7 @@ const Test = observer(
             }
         }
 
-        return <div>
+        return <div className="flex-box">
                 <WordView
                 currentTest={props.model.currentTest}/>
 
@@ -34,7 +35,7 @@ const Test = observer(
                 currentTest={props.model.currentTest}
                 onWordFound={wordFoundACB}/>
 
-                : <button onClick={userReadyACB}>Ready!</button>}
+                : <button className="user-btn" onClick={userReadyACB}>Ready!</button>}
 
                 {props.model.endTime?
                 <WordFoundView

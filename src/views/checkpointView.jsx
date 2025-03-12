@@ -4,13 +4,13 @@ export function CheckpointView(props){
         props.onSwitchDone()
     }
     console.log(props.finished)
-    return <div>
+    return <div className="flex-box">
         {props.finished?
-         <p>Bra jobbat! Du är nu klar med testet och kan gå tillbaka till formuläret!</p>
+         <p className="welcome">Bra jobbat! Du är nu klar med testet och kan gå tillbaka till formuläret!</p>
          :
-         <p>Bra jobbat! Meddela oss att du nu kommit halvvägs och vänta !</p>
+         <p className="main-text">Bra jobbat! Meddela oss att du nu kommit halvvägs och vänta !</p>
     }
-        <p>OBS! Klicka ej på knappen</p>
-        <button onClick={finishSwitchACB}>Klar</button>
+        <p className="main-text">OBS! Klicka ej på knappen</p>
+        <button className="user-btn"onClick={finishSwitchACB}>Klar</button>
     </div>
 }

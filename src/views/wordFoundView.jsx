@@ -6,6 +6,6 @@ export function WordFoundView(props){
     }
     return <div>
         <p>Bra Jobbat!</p>
-        <button onClick={nextTestACB}>Nästa</button>
+        <button className="next-btn" onClick={nextTestACB}>Nästa</button>
     </div>
 }

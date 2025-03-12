@@ -9,7 +9,7 @@ export function TestTextView(props){
     }
 
     return (
-        <div>
+        <div className="main-text">
             {TestComponent && <TestComponent onWordFound={wordFoundACB}/>}
         </div>
     )

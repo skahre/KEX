@@ -1,8 +1,8 @@
 
 export function ResultsView(props) {
     return (
-        <div>
-            <h2>Test Results</h2>
+        <div className="flex-box">
+            <h2 className="welcome">Test Results</h2>
             <ul>
                 {props.stats.map(displayResultsCB)}
             </ul>
@@ -12,7 +12,7 @@ export function ResultsView(props) {
 
 function displayResultsCB(test) {
     return (
-        <li key={test.name}>
+        <li className="main-text" key={test.name}>
             <strong>{test.name}</strong>: {test.time} sec
         </li>
     );
