@@ -1,7 +1,12 @@
 import { A1 } from "./components/A1"
 import { A2 } from "./components/A2"
+import { A3 } from "./components/A3"
+import { A4 } from "./components/A4"
 import { B1 } from "./components/B1"
 import { B2 } from "./components/B2"
+import { B3 } from "./components/B3"
+import { B4 } from "./components/B4"
+
 
 export const model = {
 
@@ -20,10 +25,14 @@ export const model = {
     testsDone: 0,
 
     allTests: [
-        {name: "A1", word: "BRIDGE", component:A1},
-        {name: "A2", word: "CANDLE", component:A2},
-        {name: "B1", word: "GLASS", component:B1},
-        {name: "B2", word: "STONE", component:B2},
+        {name: "A1", word: "SPARKA", component:A1},
+        {name: "A2", word: "PERIOD", component:A2},
+        {name: "A3", word: "FATTAS", component:A3},
+        {name: "A4", word: "UNDER", component:A4},
+        {name: "B1", word: "PRATAR", component:B1},
+        {name: "B2", word: "VERKAR", component:B2},
+        {name: "B3", word: "SOLIG", component:B3},
+        {name: "B4", word: "LIKSOM", component:B4},
     ],
 
     startTimer(){ 

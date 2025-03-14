@@ -8,20 +8,13 @@ export function B2(props){
     return (
         <div>
             <p>
-
-                Beneath the towering canopies of an ancient forest, light filtered through the leaves in a mosaic of green and gold. The air was thick with the scent of earth and blooming flowers. 
-                It was said that deep within the woods, magic still lingered, unseen but ever-present. Travelers often spoke of strange occurrences—a sudden gust of wind carrying whispers, 
-                footprints appearing where none should be. 
-
-                One evening, a lone wanderer stumbled upon a clearing where fireflies danced in mesmerizing patterns. For a brief moment, time seemed to stand still, and the forest hummed with 
-                an energy older than the world itself. At the center of the clearing, embedded in the mossy ground, was a smooth <button className="word-btn" onClick={wordFoundACB}>stone</button> that pulsed with an eerie glow. As the wanderer reached out, 
-                a warmth spread through their fingers, and a distant voice echoed in their mind, hinting at the forest’s deepest secret. 
-
-                Suddenly, the trees seemed to close in, their trunks shifting ever so slightly, as if watching. The wanderer took a hesitant step back, but the ground beneath them felt unsteady, 
-                as if the forest itself had awakened. The whispers grew louder, forming words in a language unfamiliar yet oddly understandable. They spoke of guardians long forgotten, of a promise 
-                made to the land. Had the wanderer just become part of a tale much older than they could comprehend? The fireflies blinked in unison, spelling out a message in the air, before 
-                vanishing, leaving the wanderer alone, heart pounding in the silence.
-
+            Sissi Wahlsten har gjort sig känd bland Hässelbyborna för att vara den som klädde bronsfigurerna i skulpturen "Resenärerna" varmt flera vintrar i rad i Sissis egenstickade halsdukar. 
+            Totalt blev det ett 50-tal halsdukar. Men till slut blev det både för slitsamt och dyrt för Sissi, många halsdukar stals och hon gav upp. Men denna vinter kom traditionen plötsligt 
+            tillbaka – utan Sissis vetskap. En okänd person hängde i december egna halsdukar på "Resenärerna", utan att någon <button className="word-btn" onClick={wordFoundACB}>verkar</button> ha sett tilltaget. En morgon var de bara där, säger Sissi. 
+            Alla är kusligt lika Sissis egna glesa och smala varianter. Sissi berättade i januari om mysteriet och nu har följeslagaren gett sig till känna. Hon knackade på hemma hos mig häromveckan 
+            tillsammans med sin man och berättade att det var hon. Kvinnan berömde det jag gjort, och sa att hon ville föra traditionen vidare. Hon vill vara anonym men är i 30-årsåldern, kan jag 
+            säga, berättar Sissi Wahlsten. Kvinnans halsdukar har haft samma färger som Sissis och har satts fast med buntband, vilket även Sissi använde. Det är på pricken likt. Det känns otroligt 
+            kul om man inspirerat till detta. Jag hoppas hon fortsätter. Halsdukarna är fantastiska, säger Sissi. Sissi skrattar till när hon berättar att kvinnan först var rädd att Sissi skulle vara arg. 
             </p>
         </div>
     )

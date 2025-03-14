@@ -35,7 +35,7 @@ const Test = observer(
                 currentTest={props.model.currentTest}
                 onWordFound={wordFoundACB}/>
 
-                : <button className="user-btn" onClick={userReadyACB}>Ready!</button>}
+                : <button className="user-btn" onClick={userReadyACB}>Redo!</button>}
 
                 {props.model.endTime?
                 <WordFoundView

@@ -8,18 +8,15 @@ export function A2(props){
     return (
         <div>
             <p>
-                Deep within the archives of an ancient library, a manuscript lay untouched for centuries. Its brittle pages, filled with delicate ink strokes, hinted at knowledge long erased 
-                from human memory. Scholars debated its origins, some believing it to be the work of a long-lost civilization. Others dismissed it as mere fiction, the musings of an imaginative 
-                scribe. But when a historian uncovered a passage describing an unknown celestial event, interest was reignited. Could this text rewrite history? 
-
-                In the heart of the dimly lit study, a single <button className="word-btn" onClick={wordFoundACB}>candle</button> flickered, casting elongated shadows against the dusty walls. The historian turned another page, heart pounding as the words 
-                before him seemed to whisper of secrets long forgotten, knowledge too dangerous to be buried forever. The passage described a night when the sky was split by an unknown light, 
-                seen by generations long past, yet absent from any modern records. Could it have been a comet, a celestial alignment, or something beyond human understanding? 
-
-                Determined to find answers, the historian sought out other forgotten texts, piecing together fragments of a story too grand to be coincidence. But as he dug deeper, strange 
-                occurrences plagued the library. Books fell from shelves without cause, ink smeared over pages as if something unseen objected to his discoveries. Perhaps some knowledge was meant 
-                to remain hidden.
-
+            Vid årsskiftet blev det olagligt att slänga trasiga lakan, noppriga t-tröjor, strumpor och andra tyger i soppåsen. Nu är säcken full igen, det går snabbt, säger arbetsledaren 
+            Jesper Schoultz som på nytt tvingas fälla ner luckan med lappen "Fullt" på när vi besöker Lövsta återvinningscentral. Här har textilåtervinning funnits sedan 2012, men aldrig 
+            har folk slängt kläder och tyger som nu. Inlämningen av textiler ökade med 70 procent under januari jämfört med samma <button className="word-btn" onClick={wordFoundACB}>period</button> i fjol, säger Jesper Schoultz. Rapporterna om de 
+            fuldumpningarna av kläder, pådrivet av fast fashion-industrin, har gjort många mer uppmärksamma, tror Jesper Schoultz. På Lövsta har personalen märkt att många besökare tar med 
+            sig textilierna i stora påsar, för att sedan felaktigt lyfta ur allt och proppa ned kläderna löst huller om buller i behållarna. Personalen hinner inte stoppa alla som gör fel. 
+            All textilavfall i Stockholm skickas just nu till stadens samarbetsaktör Human Bridge. Organisationen väljer vad som ska skickas till återvinning och vad som kan återanvändas. 
+            Mycket går till behövande i andra länder. Om bara några år kan dock allmänheten tvingas lära sig ett helt nytt återvinningssystem. "Ett producentansvar förväntas vara på plats 
+            inom några år (från EU:s sida) och då kommer ansvarsfrågan att förtydligas om textil ska vara ett kommunalt ansvar eller om det är kläd- och textulföretagens ansvar", skriver 
+            Helena Strömer, kommunikatör på Stockholm vatten och avfall, i ett mejl.
             </p>
         </div>
     )

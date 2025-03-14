@@ -8,19 +8,14 @@ export function B1(props){
     return (
         <div>
             <p>
-                In a quiet village, an old clockmaker toiled away in his shop, surrounded by gears and springs. His hands, though wrinkled with age, moved with precision as he assembled intricate 
-                mechanisms. The villagers admired his skill, though none truly understood the depth of his knowledge. Hidden within the cogs of a grand clock was a secret—a message left behind for 
-                a future generation. It would take a keen eye and a curious mind to decipher its meaning.
-
-                At the heart of the workshop, resting on a workbench littered with blueprints and tools, sat an ornate <button className="word-btn" onClick={wordFoundACB}>glass</button> dome protecting a peculiar timepiece. Unlike any other, this clock seemed 
-                to move both forward and backward, ticking in harmony with an unseen force. The old man often whispered to it, as if speaking to a long-lost friend, but no one ever understood his 
-                words. 
-
-                One stormy evening, a young apprentice arrived, eager to learn the craft. As he worked under the old man’s guidance, he noticed oddities—the way gears moved without touch, the 
-                sensation of being watched by unseen eyes. On the apprentice's final night, the old man handed him the clock and spoke only one phrase: "Time is not as it seems." Before the 
-                apprentice could ask what he meant, the clock struck midnight, and the shop was consumed by an inexplicable darkness.
-
-
+            Flera skolor har sagt hej då till mobilerna, och på Rödabergsskolan har det gjort mer än att bara tysta notiser – det har satt fart på gemenskapen. Vi har kommit varandra närmare, 
+            säger eleven Emelie Krantz. Ljushallen på Rödabergsskolan i Vasastan är full av liv. Ljudet av pingisbollar som studsar mot borden och elevers röster fyller rummet. Mobilerna? De 
+            ligger tryggt undangömda i lådor – sedan förra året har skolan varit helt mobilfri. Rektor Anna Bergman berättar att beslutet togs då mobiltelefonerna störde undervisningen, bidrog 
+            till kränkningar och hindrade sociala möten. Våra elever fick inte uppleva den sociala samvaron som skolan ska erbjuda, säger hon. Nu, i stället för att scrolla på rasterna, umgås 
+            eleverna. Emelie Krantz i årskurs 9 märker en tydlig skillnad. Vi har definitivt fått en bättre gemenskap i klassen. Vi har kommit varandra närmare och <button className="word-btn" onClick={wordFoundACB}>pratar</button> mer med varandra, säger 
+            hon. För att underhålla eleverna har skolan satsat på aktiviteter som pingisbord, schack och pussel. Pussel har blivit särskilt populärt. De lägger några bitar då och då och allt 
+            får ligga kvar i månader utan att någon förstör det. Det är fantastiskt, säger Bergman. Mobilfria skolor blir allt vanligare i Stockholms stad, särskilt på låg- och mellanstadiet. 
+            På högstadiet är det vanligt med mobilförbud under lektionstid, men även antalet helt mobilfria skolor ökar.
             </p>
         </div>
     )
