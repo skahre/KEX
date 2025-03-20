@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Verdana', Courier, monospace;
     font-size: medium;
     cursor:default;
 }
@@ -14,7 +14,7 @@ li{
     background-color: white;
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Verdana', Courier, monospace;
     font-size: 1.1rem;
 }
 

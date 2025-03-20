@@ -17,8 +17,8 @@ const Test = observer(
 
         function nextTestACB(){
             const testsDone = props.model.testsDone;
-            const testAmount = props.model.allTests.length;
-            if (testsDone == testAmount / 2 || testsDone == testAmount){
+            const testAmount = props.model.allTests.length - 1;
+            if (testsDone - 1 == testAmount / 2 || testsDone-1 == testAmount){
                 window.location.hash = "/checkpoint";
             }
             else {

@@ -7,6 +7,8 @@ import { B2 } from "./components/B2"
 import { B3 } from "./components/B3"
 import { B4 } from "./components/B4"
 
+import { Practise } from "./components/Practise"
+
 
 export const model = {
 
@@ -25,6 +27,7 @@ export const model = {
     testsDone: 0,
 
     allTests: [
+        {name: "Practise", word: "BRIDGE", component:Practise},
         {name: "A1", word: "SPARKA", component:A1},
         {name: "A2", word: "PERIOD", component:A2},
         {name: "A3", word: "FATTAS", component:A3},
