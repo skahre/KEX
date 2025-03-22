@@ -8,8 +8,7 @@ export function B3(props){
     return (
         <div>
             <p>
-            Hon säger inget när hon hälsat oss välkomna, men tidigt märker jag att Edita Kondrat är i färd med att bjuda på en överraskning. Framför henne vid arbetsbordet hemma i Hässelby 
-            strand har hon påbörjat en karikatyr av undertecknad. Jag hittade lite bilder på dig, du har gjort en del jobb! säger Edita och skrattar. 45-åriga Edita kommer från Litauen och 
+            Hon säger inget när hon hälsat oss välkomna, men tidigt märker jag att Edita Kondrat är i färd med att bjuda på en överraskning. Jag hittade lite bilder på dig, du har gjort en del jobb! säger Edita och skrattar. 45-åriga Edita kommer från Litauen och 
             utbildade sig på Vilnius konstakademi. “Tidigt fastnade jag för porträtt. Men traditionella porträtt blev för komplicerade, du behöver vara så precis för att alla ska bli nöjda. 
             Det blev karikatyrer i stället.” Det är på stora marknader, vid företagsevent och genom privata beställningar som Edita gör sina jobb. Vid sidan av karikatyrerna gör hon smycken, 
             grafiska tryck och ansiktsmålningar vid evenemang, men det är karikerandet som ligger varmast om hjärtat. Vid det här laget finns hennes karikatyrer i hundratals svenskars och 

@@ -10,7 +10,7 @@ export function A2(props){
             <p>
             Vid årsskiftet blev det olagligt att slänga trasiga lakan, noppriga t-tröjor, strumpor och andra tyger i soppåsen. Nu är säcken full igen, det går snabbt, säger arbetsledaren 
             Jesper Schoultz som på nytt tvingas fälla ner luckan med lappen "Fullt" på när vi besöker Lövsta återvinningscentral. Här har textilåtervinning funnits sedan 2012, men aldrig 
-            har folk slängt kläder och tyger som nu. Inlämningen av textiler ökade med 70 procent under januari jämfört med samma <button className="word-btn" onClick={wordFoundACB}>period</button> i fjol, säger Jesper Schoultz. Rapporterna om de 
+            har folk slängt kläder och tyger som nu. Inlämningen av textiler ökade med 70 procent <button className="word-btn" onClick={wordFoundACB}>under</button> januari jämfört med samma period i fjol, säger Jesper Schoultz. Rapporterna om de 
             fuldumpningarna av kläder, pådrivet av fast fashion-industrin, har gjort många mer uppmärksamma, tror Jesper Schoultz. På Lövsta har personalen märkt att många besökare tar med 
             sig textilierna i stora påsar, för att sedan felaktigt lyfta ur allt och proppa ned kläderna löst huller om buller i behållarna. Personalen hinner inte stoppa alla som gör fel. 
             All textilavfall i Stockholm skickas just nu till stadens samarbetsaktör Human Bridge. Organisationen väljer vad som ska skickas till återvinning och vad som kan återanvändas. 

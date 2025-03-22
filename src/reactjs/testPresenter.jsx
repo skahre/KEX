@@ -11,8 +11,10 @@ const Test = observer(
         }
 
         function wordFoundACB(){
-            props.model.stopTimer();
-            props.model.finishTest();
+            if (!props.model.nextTest){
+                props.model.stopTimer();
+                props.model.finishTest();
+            }
         }
 
         function nextTestACB(){
@@ -20,6 +22,9 @@ const Test = observer(
             const testAmount = props.model.allTests.length - 1;
             if (testsDone - 1 == testAmount / 2 || testsDone-1 == testAmount){
                 window.location.hash = "/checkpoint";
+            }
+            else if (testsDone == 1){
+                window.location.hash = "/practise";
             }
             else {
                 props.model.getCurrentTest();

@@ -26,12 +26,14 @@ export const model = {
 
     testsDone: 0,
 
+    nextTest: false,
+
     allTests: [
         {name: "Practise", word: "BRIDGE", component:Practise},
         {name: "A1", word: "SPARKA", component:A1},
-        {name: "A2", word: "PERIOD", component:A2},
+        {name: "A2", word: "UNDER", component:A2},
         {name: "A3", word: "FATTAS", component:A3},
-        {name: "A4", word: "UNDER", component:A4},
+        {name: "A4", word: "VIKTER", component:A4},
         {name: "B1", word: "PRATAR", component:B1},
         {name: "B2", word: "VERKAR", component:B2},
         {name: "B3", word: "SOLIG", component:B3},
@@ -53,10 +55,12 @@ export const model = {
         this.startTime = 0;
         this.endTime = 0;
         this.currentTest = this.allTests[this.testsDone];
+        this.nextTest = false;
     },
 
     finishTest(){
         this.testsDone += 1;
+        this.nextTest = true;
     },
 
     restart(){

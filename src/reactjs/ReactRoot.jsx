@@ -6,6 +6,7 @@ import { StartView } from "../views/startView";
 import {Test} from "./testPresenter"
 import { Checkpoint } from "./checkpointPresenter";
 import { Results } from "./resultsPresenter";
+import { PractiseDoneView } from "../views/practiseDoneView";
 
 export function makeRouter(model){
     return createHashRouter([
@@ -24,6 +25,10 @@ export function makeRouter(model){
         {
             path: "/results",
             element: <Results model={model}/>
+        },
+        {
+            path: "/practise",
+            element: <PractiseDoneView model={model}/>
         }
     ], 
     {
