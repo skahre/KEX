@@ -8,16 +8,11 @@ export function Practise(props){
     return (
         <div>
             <p>
-            The waves crashed relentlessly against the rugged cliffs, sending plumes of mist into the air. The island had long been abandoned, its once-thriving 
-            settlement reduced to ruins swallowed by creeping vines. No one knew why the inhabitants had vanished so suddenly, leaving behind half-eaten meals and 
-            unfinished letters. Legends spoke of an unseen force lurking beneath the surface, waiting to reclaim what was lost. As explorers set foot on the desolate 
-            shores, they couldn't shake the feeling of being watched. The wind howled through empty windows, whispering secrets of a forgotten past. In the center 
-            of the ruins, a stone arch stood tall, remnants of a time when travelers would cross a narrow <button className="word-btn" onClick={wordFoundACB}>bridge</button> connecting the village to the mainland. Now, only 
-            fragments remained, swallowed by the relentless passage of time and the creeping embrace of nature. Among the overgrown paths, remnants of pottery and 
-            rusted tools lay scattered, hinting at the once-thriving community that had vanished overnight. The expedition team combed through the debris, finding 
-            peculiar symbols etched into walls, possibly warnings or prayers to unknown deities. Night fell quickly on the island, and with it, an eerie silence 
-            descended. The moonlight cast long shadows over the ruins, and for a moment, it seemed as if figures moved among them. A distant splash echoed from the 
-            shore, sending chills down the explorers' spines. Had they truly come alone, or did something else linger in the darkness, watching, waiting?
+            I takt med att tekniken utvecklas blir digitaliseringen en allt större del av våra liv. Vi använder mobiltelefoner för att hålla kontakten, datorer för att arbeta och streamade tjänster för att underhålla oss. Tekniken förändrar hur vi kommunicerar, konsumerar information och hanterar vardagliga uppgifter.
+En av de största förändringarna de senaste åren är utvecklingen av artificiell intelligens. AI används <button className="word-btn" onClick={wordFoundACB}>redan</button> i allt från självkörande bilar till automatiserade kundtjänster. Många företag implementerar AI för att effektivisera sina verksamheter och förbättra kundupplevelsen. Samtidigt väcker teknologin frågor om etik och integritet. Hur påverkas vi av att maskiner kan fatta beslut åt oss?
+En annan viktig aspekt av digitaliseringen är arbetslivet. Fler yrken kan nu utföras på distans, vilket ger människor större flexibilitet. Samtidigt innebär det nya utmaningar, som att upprätthålla balansen mellan arbete och fritid.
+Skolan och utbildningen förändras också. Digitala verktyg gör det möjligt för elever att få tillgång till information på ett helt nytt sätt. Men det finns också risker, såsom digitalt utanförskap för dem som saknar teknisk kunskap.
+Framtiden ser ljus ut, men kräver eftertanke. Hur vi väljer att använda tekniken kommer att avgöra dess påverkan på samhället. Digitaliseringen är här för att stanna – frågan är hur vi bäst anpassar oss till den.
 
             </p>
         </div>

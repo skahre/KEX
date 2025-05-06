@@ -29,15 +29,15 @@ export const model = {
     nextTest: false,
 
     allTests: [
-        {name: "Practise", word: "BRIDGE", component:Practise},
-        {name: "A1", word: "SPARKA", component:A1},
-        {name: "A2", word: "UNDER", component:A2},
-        {name: "A3", word: "FATTAS", component:A3},
-        {name: "A4", word: "VIKTER", component:A4},
+        {name: "Practise", word: "REDAN", component:Practise},
         {name: "B1", word: "PRATAR", component:B1},
         {name: "B2", word: "VERKAR", component:B2},
         {name: "B3", word: "SOLIG", component:B3},
         {name: "B4", word: "LIKSOM", component:B4},
+        {name: "A1", word: "SPARKA", component:A1},
+        {name: "A2", word: "UNDER", component:A2},
+        {name: "A3", word: "FATTAS", component:A3},
+        {name: "A4", word: "VIKTER", component:A4},
     ],
 
     startTimer(){ 

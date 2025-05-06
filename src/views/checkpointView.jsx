@@ -5,6 +5,7 @@ export function CheckpointView(props){
     }
     console.log(props.finished)
     return <div className="flex-box">
+        <p className="test-title">STOPP</p>
         {props.finished?
          <p className="welcome">Bra jobbat! Du är nu klar med testet och kan gå tillbaka till formuläret!</p>
          :
